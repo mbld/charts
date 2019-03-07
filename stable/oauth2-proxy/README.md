@@ -61,6 +61,7 @@ Parameter | Description | Default
 `priorityClassName` | priorityClassName | `nil`
 `service.port` | port for the service | `80`
 `service.type` | type of service | `ClusterIP`
+`serviceAccountName` | Name of the ServiceAccount to use for the pod template | `null`
 `tolerations` | List of node taints to tolerate | `[]`
 
 Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`. For example,
